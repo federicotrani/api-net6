@@ -10,6 +10,6 @@ namespace api_net6
             
         }
 
-        public DbSet<Localidad> Localidades { get; set; }
+        public virtual DbSet<Localidad> Localidades { get; set; }
     }
 }
